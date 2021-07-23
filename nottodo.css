@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 602px;
+  height: 640px;
+  background: #1ab0f0;
+  margin: 10vh 25vw;
+  border-radius: 5%;
+}
+
+header {
+  text-align: center;
+  height: 76px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  text-decoration-line: underline;
+
+  color: rgba(37, 36, 39, 0.81);
+}
+
+button {
+  display: block;
+  float: right;
+}
+
+.input {
+  width: 187px;
+  height: 40px;
+  background: rgba(252, 254, 255, 0.78);
+}
+
+.container1 {
+  grid-area: container1;
+}
+
+.container2 {
+  grid-area: container2;
+}
+span > label {
+  width: 97px;
+  height: 34px;
+  font-family: "Reem Kufi", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 54px;
+  color: rgba(23, 23, 23, 0.83);
+}
+
+.main > hr {
+  width: 601px;
+  height: 0px;
+  border: 1px solid #000000;
+}
+
+button {
+  margin: 1rem;
+  width: 114.01px;
+  height: 42px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas: "container1 container2";
+  height: 453px;
+}
+
+.title {
+  width: 186px;
+  font-size: 36px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+input {
+  font-family: "Reem Kufi", sans-serif;
+  width: 24px;
+  height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 36px;
+}
+
+div > hr {
+  margin: 1rem 0;
+  border: 5px solid #f40d0d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+  font-family: Reem Kufi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
